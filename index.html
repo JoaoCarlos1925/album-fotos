@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Fotos</title>
+    <style>
+        body {
+            background-color: salmon;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .album {
+            display: flex;
+            gap: 20px;
+        }
+        .photo {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="album">
+        <div class="photo">
+            <img src="img/album1.webp" alt="Foto 1">
+        </div>
+        <div class="photo">
+            <img src="img/album2.gif" alt="Foto 2">
+        </div>
+        <div class="photo">
+            <img src="img/album3.gif" alt="Foto 3">
+        </div>
+    </div>
+</body>
+</html>
